@@ -1,0 +1,442 @@
+/* .video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+} */
+
+body {
+  font-family: "Manrope", sans-serif !important
+}
+
+/* banner css */
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  z-index: 9;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  /* margin-top: 20%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+section.banner:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  background: black;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  left: 0;
+  opacity: 0.5;
+}
+
+
+.video-container {
+  position: relative;
+}
+
+
+section.banner {
+  min-height: 450px;
+  height: 100vh;
+  position: relative;
+  margin-top: -78px;
+}
+
+
+.App {
+  position: relative;
+
+}
+
+.video_section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+
+video {
+  object-fit: cover;
+}
+
+
+
+.content p {
+  font-size: 1.25rem;
+  color: #fff;
+  line-height: 1.375;
+  padding-top: .5rem;
+  /* padding-bottom: .75rem; */
+  font-weight: 300;
+}
+
+
+.content h2 {
+  font-weight: 300;
+  line-height: 1.25;
+  color: #fff;
+  font-size: 36px;
+  /* padding-bottom: .5rem; */
+  line-height: 35px;
+}
+
+.text-blue {
+  color: #00bfff;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+
+
+/* Get in touch */
+
+section.Getintouch {
+  background: #0067B1;
+  padding: 6% 0;
+}
+
+.Get_text h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 38px;
+  margin-bottom: 0;
+}
+
+.Get_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  /* margin-bottom: 0; */
+}
+
+
+.Get_text ul li {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 21px;
+  margin-bottom: 11px;
+}
+
+
+.Get_text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.Get_text ul li span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.Get_text hr {
+  border-color: #fff;
+  opacity: 1;
+  width: 3rem;
+  height: 2px;
+  border-top: 3px solid #fff;
+}
+
+
+
+
+.From_div input,
+.From_div textarea {
+  font-size: 14px;
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #ffffffb3 !important;
+  border-radius: 0 !important;
+  color: #ffff;
+  padding-left: 0;
+}
+
+
+.From_div input::placeholder,
+.From_div textarea::placeholder {
+  color: #fff
+    /* Light gray */
+  ;
+  font-weight: 300;
+  text-transform: capitalize;
+  opacity: 1;
+  /* Optional: make sure it's fully visible */
+}
+
+
+.From_div input:focus,
+.From_div textarea:focus {
+  box-shadow: none !important;
+  border-bottom: 1px solid #fff !important;
+}
+
+
+
+.btn_send button {
+  background: transparent;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #fff !important;
+  padding: 5px 34px;
+  border-radius: 42px;
+  /* margin: 18px 0; */
+  margin-top: 14px;
+
+}
+
+
+body .btn_send button:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border: 2px solid #fff !important;
+}
+
+
+
+/* footer */
+
+
+footer {
+  background-image: url("./img/footbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.foot_text {
+  color: #000000;
+  font-size: 14px;
+}
+
+
+
+.per_text {
+  color: #000000B2;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+
+/* vehicle */
+
+
+h2.heading_text {
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+
+.tab_menu .nav.tabnew .nav-item button.active {
+  background-color: transparent;
+  color: var(--bs-danger) !important;
+}
+
+.tab_menu .nav.tabnew .nav-item button.active::after {
+  content: "";
+  border-right: 4px solid #ffff;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 12px;
+}
+
+
+.tab_menu .nav-pills.tabnew .nav-link {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff !important;
+  opacity: 0.2;
+  padding: 0;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  padding-left: 2.5rem;
+  width: 100%;
+  max-width: 258px;
+  /* margin-bottom: 35px; */
+}
+
+
+
+.tab_menu .nav.tabnew .nav-item button.active {
+  background-color: transparent;
+  color: #ffff !important;
+  font-weight: 700;
+  opacity: 1;
+}
+
+
+
+.tab_menu .nav-pills.tabnew .nav-link p {
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+
+.tab_menu .nav.nav-pills.tabnew {
+  border-left: 1px solid #4b4b4c;
+  padding: 0px;
+  /* padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  padding-left: 3.5rem; */
+}
+
+
+
+.tab_menu {
+  margin-top: 30px;
+}
+
+
+.menu_car img {
+  width: 64px;
+  height: 64px;
+}
+
+
+
+.menu_car li.nav-item button p {
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 19px;
+  color: #fff;
+}
+
+
+
+.menu_car .nav-pills .nav-link {
+  opacity: 0.2;
+}
+
+
+.menu_car .nav-pills .nav-link.active {
+  background: transparent;
+  opacity: 1;
+}
+
+
+.menu_car .tab-pane {
+  margin-bottom: 40px;
+}
+
+.tab_menu {
+  justify-content: space-between;
+}
+
+
+button:focus {
+  box-shadow: none;
+}
+
+
+
+
+@media (max-width: 996px) {
+
+
+  .content h2 {
+    font-size: 24px;
+    /* padding-bottom: .5rem; */
+    line-height: 22px;
+  }
+
+  section.banner {
+    min-height: 400px;
+    height: 100%;
+  }
+  li.nav-item.new_flex {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .content p {
+    font-size: 18px;
+  }
+
+  .content h2 {
+    font-size: 15px;
+    /* padding-bottom: .5rem; */
+    line-height: 14px;
+  }
+
+
+  h2.heading_text {
+    font-size: 20px;
+  }
+
+  .tab_menu {
+    margin-top: 15px;
+    flex-flow: column;
+  }
+
+  .Get_text h2 {
+    font-size: 18px;
+    line-height: 25px;
+
+  }
+
+  .Get_text ul li span {
+    font-size: 14px;
+  }
+
+  .btn_send button {
+    width: 100%;
+  }
+
+  section.Getintouch .row {
+    flex-flow: column-reverse;
+    gap: 28px;
+  }
+}
+
+
+img.play {
+  width: 50px;
+  height: 50px;
+}
+
+
+.btn_text_new button {
+  box-shadow: none;
+
+}
+
+li.nav-item.new_flex {
+  display: flex;
+  align-items: center;
+}
+
+button:focus-visible{
+  box-shadow: none;
+  outline: none;
+}

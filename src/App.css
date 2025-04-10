@@ -188,7 +188,10 @@ section.Getintouch {
 .From_div input:focus,
 .From_div textarea:focus {
   box-shadow: none !important;
+  border: none  !important;
+background-color: transparent !important;
   border-bottom: 1px solid #fff !important;
+  color: #fff;
 }
 
 
